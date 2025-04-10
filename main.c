@@ -27,7 +27,8 @@ int main() {
 
 //      task4
         int n3 = 12;
-        revprint(n3)
+        revprint(n3);
+
 //      task5
         const int size = 8;
         int arr[size] = {1,10,3,5,92,12,43,57};
@@ -66,6 +67,8 @@ int main() {
         int mm = arrmm[0];
         int imm = 0;
         int oper = 0;
-  
+	printf("%d", minmax(arrmm, sizemm, imm, oper, mm));
+        printf("\n");
+
         return 0;
 }
